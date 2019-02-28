@@ -1,25 +1,36 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
+    <div class="nav">
+      <router-link class="nav-item" to="/"><i class="link-icon icon iconfont icon-home"></i><span>首页</span></router-link>
+      <router-link class="nav-item" to="/xf"><i class="link-icon icon iconfont icon-crossfilter"></i><span>想法</span></router-link>
+      <router-link class="nav-item" to="/dx"><i class="link-icon icon iconfont icon-education"></i><span>大学</span></router-link>
+      <router-link class="nav-item" to="/xx"><i class="link-icon icon iconfont icon-message"></i><span>消息</span></router-link>
+      <router-link class="nav-item" to="/wd"><i class="link-icon icon iconfont icon-user"></i><span>我的</span></router-link>
+    </div>
   </div>
 </template>
+<script type="text/ecmascript-6">
+  export default {}
+</script>
 <style lang="stylus">
-#app
-  font-family 'Avenir', Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
-
-#nav
-  padding 30px
-  a
-    font-weight bold
-    color #2c3e50
-    &.router-link-exact-active
-      color #42b983
+  .nav
+    position fixed
+    bottom: 0
+    left: 0
+    right 0
+    display flex
+    background #fff
+    padding 0.3rem 0
+    box-shadow: 0 -0.1rem 0.3rem 0 #ccc;
+    .nav-item
+      flex 1
+      text-align center
+      text-decoration none
+      color #777
+      &.router-link-exact-active
+        color #0086b3
+      .link-icon
+        display block
+        margin-bottom 0.3rem
 </style>
