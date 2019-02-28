@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view class="router-view"/>
     <div class="nav">
       <router-link class="nav-item" to="/"><i class="link-icon icon iconfont icon-home"></i><span>首页</span></router-link>
       <router-link class="nav-item" to="/xf"><i class="link-icon icon iconfont icon-crossfilter"></i><span>想法</span></router-link>
@@ -14,14 +14,17 @@
   export default {}
 </script>
 <style lang="stylus">
+  .router-view
+    margin-bottom 3rem
   .nav
     position fixed
     bottom: 0
     left: 0
     right 0
+    height 3rem
     display flex
+    align-items center
     background #fff
-    padding 0.3rem 0
     box-shadow: 0 -0.1rem 0.3rem 0 #ccc;
     .nav-item
       flex 1

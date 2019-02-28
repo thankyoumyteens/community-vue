@@ -6,7 +6,7 @@
   export default {
     props: {
       size: {
-        type: Number,
+        type: String,
         defaultValue: 1.0
       }
     },

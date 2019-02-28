@@ -17,8 +17,13 @@
 
 <style lang="stylus" rel="stylesheet/stylus">
   .header
+    width 100%
+    height 2.5rem
+    box-sizing border-box
     padding 0.5rem
     display flex
+    background #fff
+    box-shadow: 0 0.1rem 0.3rem 0 #ccc;
     .search-box
       flex 1
       position relative
