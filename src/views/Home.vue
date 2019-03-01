@@ -12,6 +12,10 @@
         </div>
         <split size="0.5"/>
       </div>
+      <div class="item" v-show="!loading" @click="loadMore">加载更多</div>
+      <div class="item loading" v-show="loading">
+        <img src="../assets/loading.gif" alt="loading">
+      </div>
     </div>
   </div>
 </template>
@@ -21,6 +25,7 @@
   import Split from '../components/Split/Split'
   import axios from 'axios'
   import { STATUS } from '../common/constants'
+  import Vue from 'vue'
 
   export default {
     components: {
@@ -29,20 +34,40 @@
     },
     data () {
       return {
-        list: []
+        list: [],
+        loading: false,
+        pageIndex: 1
       }
     },
     created () {
-      axios.get('/list').then(res => {
-        let resData = res.data
-        if (resData.status === STATUS.OK) {
-          let data = resData.data
-          this.list = data
-          console.log(this.list)
-        }
-      }).catch(err => {
-        console.log(err)
-      })
+      this.getList()
+    },
+    methods: {
+      loadMore() {
+        this.pageIndex++
+        this.getList()
+      },
+      getList () {
+        this.loading = true
+        axios.get('/list', {
+          params: {
+            pageIndex: this.pageIndex
+          }
+        }).then(res => {
+          this.loading = false
+          let resData = res.data
+          if (resData.status === STATUS.OK) {
+            let data = resData.data
+            for (let i = 0; i < data.length; i++) {
+              Vue.set(this.list, this.list.length, data[i])
+            }
+            console.log(this.list)
+          }
+        }).catch(err => {
+          this.loading = false
+          console.error(err)
+        })
+      }
     }
   }
 </script>
@@ -58,6 +83,8 @@
       .item
         padding 0.2rem 0
         cursor pointer
+        &.loading
+          text-align center
         .title
           font-weight bold
           font-size 1.1rem
