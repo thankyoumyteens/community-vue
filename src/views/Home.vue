@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <v-header class="v-header"/>
+    <v-header :need-ask="needAsk" class="v-header"/>
     <div class="list">
-      <div class="item" v-for="(item,index) in list" :key="index">
+      <div class="item" v-for="(item,index) in list" :key="index" @click="detail(item.id)">
         <h1 class="title">{{item.title}}</h1>
         <p class="content">{{item.content}}...</p>
         <div class="bottom-line">
@@ -17,12 +17,14 @@
         <img src="../assets/loading.gif" alt="loading">
       </div>
     </div>
+    <v-nav/>
   </div>
 </template>
 
 <script>
   import VHeader from '../components/Header/Header'
   import Split from '../components/Split/Split'
+  import VNav from '../components/Nav/Nav'
   import axios from 'axios'
   import { STATUS } from '../common/constants'
   import Vue from 'vue'
@@ -30,20 +32,30 @@
   export default {
     components: {
       VHeader,
-      Split
+      Split,
+      VNav
     },
     data () {
       return {
         list: [],
         loading: false,
-        pageIndex: 1
+        pageIndex: 1,
+        needAsk: true
       }
     },
     created () {
       this.getList()
     },
     methods: {
-      loadMore() {
+      detail (id) {
+        this.$router.push({
+          name: 'detail',
+          params: {
+            id: id
+          }
+        })
+      },
+      loadMore () {
         this.pageIndex++
         this.getList()
       },
@@ -74,6 +86,7 @@
 
 <style lang="stylus" rel="stylesheet/stylus">
   .home
+    margin-bottom 3rem
     .v-header
       position fixed
       top 0
