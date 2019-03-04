@@ -73,7 +73,6 @@
             for (let i = 0; i < data.length; i++) {
               Vue.set(this.list, this.list.length, data[i])
             }
-            console.log(this.list)
           }
         }).catch(err => {
           this.loading = false
