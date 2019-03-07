@@ -48,11 +48,14 @@
     },
     methods: {
       detail (id) {
+        // this.$router.push({
+        //   name: 'detail',
+        //   params: {
+        //     id: id
+        //   }
+        // })
         this.$router.push({
-          name: 'detail',
-          params: {
-            id: id
-          }
+          path: '/detail/' + id
         })
       },
       loadMore () {
