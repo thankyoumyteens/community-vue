@@ -5,7 +5,7 @@
     {
       "id": "0",
       "userName": "技术火炬手",
-      "userAvatar": "https://pic3.zhimg.com/v2-0353e8aa3c3f193c02457ce71af63c40_xs.jpg",
+      "userAvatar": "http://img3.imgtn.bdimg.com/it/u=2281052020,3958255485&fm=26&gp=0.jpg",
       "content": "<div class=\"detail-content\"><p><b>1. 《Redis实战》</b><br></p><p><b>推荐理由</b>: Redis是服务端的缓存技术。<b>缓存</b>可以说只在性能优化阶段才有明显的作用，项目初期往往用不到。大多数使用<code>node.js</code>进行后端开发的前端开发者实际上更多地是做中间层或者直接做后端服务，缓存技术对自己来说是技术盲区，私以为对许多开发者来说也是盲区。</p><h2><b>2. 《大话数据结构》</b></h2><p><b>推荐理由</b>：技术决定你能走多快，数据结构和算法决定你能走多远。</p><h2><b>3. 《算法图解》</b></h2><p><b>推荐理由</b>：技术决定你能走多快，数据结构和算法决定你能走多远。</p><h2><b>4. 《CSS世界》</b></h2><p><b>推荐理由</b>：<code>CSS</code>和<code>javascript</code>一样，都是很容易上手，却很难精通的。<code>CSS</code>几乎可以说是我们全团队的软肋，包括前端人员在内，敢说自己精通<code>js</code>的大有人在，但敢说自己精通<code>CSS</code>的寥寥无几。这本是前端知名博主张鑫旭的书籍，好评很多，讲的很细致。如果你更倾向一些CSS的使用技巧，可以去看《CSS揭秘》这本书，许多实现方法会改变你对<code>CSS</code>的理解。</p><h2><b>5. 《javascript设计模式(第二版)》</b></h2><p><b>推荐理由</b>：设计模式在<code>javascript</code>中的应用。</p><h2><b>6. 《javascript框架设计(第二版)》</b></h2><p><b>推荐理由</b>：司徒正美的书，他的博客也是非常知名的。每个框架都有其优点和不足，如何在开发中扬长避短是非常考验基本功的。这本书会让你了解如何去设计一个框架，徒手打造简易版的<code>jQuery</code>,<code>angularjs</code>,<code>vue.js</code>,<code>react.js</code>并不是高不可攀，而当你能亲手造出一个简单框架时，你对它的理解必将到达另一个层次。你会发现，其实所有前端框架的架构都差不多，而核心的区别几乎全部集中在<b>算法</b>上。</p><h2><b>7. 《javascript设计模式与开发实践》</b></h2><p><b>推荐理由</b>：前端设计模式类的书本来就很少，这本是腾讯前端AlloyTeam团队出品，综合讲述前端的设计模式，设计原则，编程技巧，代码重构等等。<code>AlloyTeam</code>有自己的资源站，感兴趣的读者可以自行搜索，资源还有博客非常多，质量也很高。</p><h2><b>8. 《Node.js:来一打C++扩展》</b></h2><p><b>推荐理由</b>：公众号<code>前端之巅</code>上周推荐的书籍之一。我特别佩服那些在简历上将<i>使用<code>Express</code>起一个后端服务</i>写成<i>精通node.js</i>的人。</p><h2><b>9. 《告别失控 软件开发团队管理必读》</b></h2><p><b>推荐理由</b>：计算机类图书销售榜排名第5的技术管理类书籍，不想当将军的士兵不是好士兵，其他的不多说。</p><h2><b>10. 《视界·×××：写给UI设计师的设计书》</b></h2><p><b>推荐理由</b>：没有审美的前端不是好架构师。读设计类的书不是让你抢设计师的饭碗（实际上你也抢不了），而是下次再有人说你的界面不好看时，你可以用“不懂审美”噎死他。</p><h2><b>11. 《前端工程化体系设计与实践》</b></h2><p><b>推荐理由</b>：如果你不想永远只是写页面，就需要面对从开发者到工程师的思维转变。</p><h2><b>12.《企业IT架构转型之道 阿里巴巴中台战略思想与架构实践》</b></h2><p><b>推荐理由</b>：曾经有一个前端大神说过，如果你想成为前端架构师，首先你得忘记自己是个前端。</p><p>本文来源于：<a href=\"https://link.zhihu.com/?target=https%3A//bbs.huaweicloud.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\" data-za-detail-view-id=\"1043\">华为云社区</a></p><p>原文链接：<a href=\"https://link.zhihu.com/?target=https%3A//bbs.huaweicloud.com/blogs/c85148248fae11e89fc57ca23e93a89f\" class=\" wrap external\" target=\"_blank\">2018年8月中级前端开发推荐书籍_云博客_云社区-华为云</a></p><p>作者：大史不说话</p></div>",
       "date": "2019-01-28 15:04",
       "upvote": "179",
@@ -14,7 +14,7 @@
     {
       "id": "1",
       "userName": "佑界",
-      "userAvatar": "https://pic4.zhimg.com/3f1b7173b3273870dc065e3dfa8860f8_l.jpg",
+      "userAvatar": "http://img1.imgtn.bdimg.com/it/u=3251029328,2490819195&fm=26&gp=0.jpg",
       "content": "<div class=\"detail-content\">传统的html css几乎不用看书，看一些html5 css3多作页面即可，因为其它js的书都会涉及。<br>js比较灵活水比较深。我看过的有这些：javascript设计模式、HTml5揭秘、javascript语言精粹、javascript高级程序设计、javascript dom高级程序设计、nodejs开发指南、深入浅出coffeescript 还有不列举了。<br>原则：现在只看有深度的，入门浅的还不如看视频，非图灵不看</div>",
       "date": "2012-11-15 08:11",
       "upvote": "14",
@@ -23,7 +23,7 @@
     {
       "id": "2",
       "userName": "晚风轻拂",
-      "userAvatar": "https://pic2.zhimg.com/v2-30aeda1b304185ee6433a90180054468_l.jpg",
+      "userAvatar": "http://img1.imgtn.bdimg.com/it/u=2796651835,2041654306&fm=26&gp=0.jpg",
       "content": "<div class=\"detail-content\"><b>前端路途很艰辛，因为它发展太快了</b>。不过前端的入门相对后台而言还是比较快的，希望自己的分享，能让刚入前端的小伙伴少走弯路。<br>推荐入门书籍：<b>《锋利的jQuery》、《DOM编程艺术》、《javascript高级程序设计》、《javascript犀牛书》</b><br><b>《锋利的jQuery》</b>作为<b>第一本</b>原因是jQuery入门快，你<b>不会因为js的晦涩难懂而止步不前</b>，因为学习jQuery后你可以自己写一些可以即使看到效果的小项目从而提升兴趣。<br><b>《DOM编程艺术》、《javascript高级程序设计》</b>需要咬文嚼字一样去理解琢磨，遇到不懂的可以上网查找资料解决问题，推荐的社区是<b>stackoverflow 和 segmentfault</b>，在此过程最好找到感兴趣的demo进行模仿。<br><b>《javascript犀牛书》</b>当做是工具书，因为很厚，最好不要一页一页的看，当然如果你有时间的话还是可以这么做的，我的推荐是遇到哪块不懂插哪块。希望楼主学习进步！</div>",
       "date": "2016-11-04 13:02",
       "upvote": "21",
